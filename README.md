@@ -72,6 +72,7 @@ See the [expanded trend-intelligence model](docs/expanded-trend-intelligence.md)
 - [Extended distribution surfaces](docs/extended-distribution-surfaces.md)
 - [AvatarArts research-to-repository comparison](docs/avatararts-research-comparison.md)
 - [AvatarArts evidence appendix](docs/avatararts-evidence-appendix.md)
+- [Comprehensive research and gap-bridge dossier](docs/comprehensive-research-gap-bridge-dossier.md)
 - [Example choTaku campaign brief](examples/choTaku-campaign.json)
 - [Campaign draft generator](tools/generate_campaign.py)
 
