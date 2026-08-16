@@ -68,6 +68,9 @@ See the [expanded trend-intelligence model](docs/expanded-trend-intelligence.md)
 - [Launch log template](campaigns/launch-log.md)
 - [Repository audit helper](tools/repo_readiness.py)
 - [Rising signal classifier](tools/rising_signals.py)
+- [Content creation and distribution automation](docs/content-automation.md)
+- [Example choTaku campaign brief](examples/choTaku-campaign.json)
+- [Campaign draft generator](tools/generate_campaign.py)
 
 ## Ethical boundary
 
