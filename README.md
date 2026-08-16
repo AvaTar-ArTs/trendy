@@ -69,6 +69,7 @@ See the [expanded trend-intelligence model](docs/expanded-trend-intelligence.md)
 - [Repository audit helper](tools/repo_readiness.py)
 - [Rising signal classifier](tools/rising_signals.py)
 - [Content creation and distribution automation](docs/content-automation.md)
+- [Extended distribution surfaces](docs/extended-distribution-surfaces.md)
 - [Example choTaku campaign brief](examples/choTaku-campaign.json)
 - [Campaign draft generator](tools/generate_campaign.py)
 
