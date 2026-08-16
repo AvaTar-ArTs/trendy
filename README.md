@@ -70,6 +70,7 @@ See the [expanded trend-intelligence model](docs/expanded-trend-intelligence.md)
 - [Rising signal classifier](tools/rising_signals.py)
 - [Content creation and distribution automation](docs/content-automation.md)
 - [Extended distribution surfaces](docs/extended-distribution-surfaces.md)
+- [AvatarArts research-to-repository comparison](docs/avatararts-research-comparison.md)
 - [Example choTaku campaign brief](examples/choTaku-campaign.json)
 - [Campaign draft generator](tools/generate_campaign.py)
 
