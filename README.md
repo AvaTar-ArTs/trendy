@@ -1,8 +1,8 @@
 # Trendy
 
-A practical launch and discoverability system for AvatarArts repositories.
+A practical cross-domain trend intelligence and launch system for AvatarArts.
 
-This repository packages the research and operating guidance needed to submit, position, launch, and sustain momentum for open-source projects on [Trendshift](https://trendshift.io/) and adjacent developer communities.
+This repository packages the research and operating guidance needed to discover, position, launch, and sustain momentum for open-source projects, models, skills, MCP servers, products, papers, creator assets, media, and web properties.
 
 ## Recommended flagship
 
@@ -14,43 +14,62 @@ Use [Origin Story](https://github.com/AvaTar-ArTs/origin-story) as the companion
 
 Do not submit the entire AvatarArts constellation at once. A focused flagship gives people one project to understand, install, use, star, fork, discuss, and improve.
 
-## What Trendshift appears to track
+## What Trendy measures
 
-Trendshift presents:
+Trendy treats Trendshift as one discovery surface among many:
 
-- Live, daily, weekly, monthly, and yearly repository rankings
-- GitHub Trending history
-- Repository activity including stars, forks, issues, pull requests, and closed issues
-- External mentions and topic associations
-- Individual repository trend-history pages
+- GitHub and Trendshift repositories
+- Hugging Face models, datasets, Spaces, and papers
+- npm and PyPI packages
+- Agent skills and MCP directories
+- Product launches
+- Research papers and benchmarks
+- APIs, models, workflows, and integrations
+- Social and developer-community mentions
+- Marketplaces, templates, plugins, and services
+- Music, video, comics, visual assets, and newsletters
+- Websites, demos, documentation, and creator products
 
-Trendshift’s exact ranking formula is not publicly documented. Submission can make a repository discoverable to the service, but it does not guarantee a ranking. Visibility comes from genuine project momentum and sustained interest.
+## Hot and rising signals
+
+The framework uses explicit, comparable definitions:
+
+- **Top 1–5%** means percentile rank inside a defined cohort.
+- **+300% growth** means the current value is four times the baseline.
+- A candidate is **hot** when at least two independent signal classes accelerate and quality evidence supports the movement.
+- A single noisy view or star spike is a watch signal, not proof of adoption.
+
+See the [expanded trend-intelligence model](docs/expanded-trend-intelligence.md) and [rising-signals research](docs/rising-signals.md).
 
 ## Launch workflow
 
-1. Make the flagship repository understandable in under one minute.
+1. Make the flagship understandable in under one minute.
 2. Add installation instructions that work from a clean environment.
 3. Add a real example, screenshot, architecture diagram, and short demo.
 4. Create a tagged release such as `v0.1.0`.
-5. Add precise GitHub topics.
+5. Add precise metadata and category tags on each relevant platform.
 6. Submit the repository through the **Submit repository** control on [Trendshift](https://trendshift.io/).
-7. Announce the release in relevant communities.
-8. Invite real users to test, open issues, contribute, and fork examples.
-9. Continue with small, meaningful releases.
+7. Publish the relevant companion surface: demo, model, skill, package, paper, product, or media artifact.
+8. Announce the release in relevant communities.
+9. Invite real users to test, contribute, remix, install, or purchase.
 10. Record results in the launch log.
 
 ## Repository contents
 
 - [Trendshift playbook](docs/trendshift-playbook.md)
-- [Repository readiness checklist](docs/repository-readiness.md)
+- [Rising signals research](docs/rising-signals.md)
+- [Expanded cross-domain trend intelligence](docs/expanded-trend-intelligence.md)
+- [Cross-domain trend record schema](schemas/trend-record.schema.json)
+- [Repository-readiness checklist](docs/repository-readiness.md)
 - [choTaku launch plan](campaigns/chotaku-launch.md)
 - [Outreach templates](campaigns/outreach-templates.md)
 - [Launch log template](campaigns/launch-log.md)
 - [Repository audit helper](tools/repo_readiness.py)
+- [Rising signal classifier](tools/rising_signals.py)
 
 ## Ethical boundary
 
-Do not buy stars, automate fake engagement, spam communities, or coordinate misleading activity. The goal is durable discovery based on a useful project, clear documentation, real users, and transparent participation.
+Do not buy stars, automate fake engagement, spam communities, fabricate usage, or coordinate misleading activity. The goal is durable discovery based on useful work, clear documentation, real users, transparent participation, and measurable retention.
 
 ## Related AvatarArts systems
 
