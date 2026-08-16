@@ -1,0 +1,25 @@
+{
+  "project": "choTaku",
+  "version": "0.1.0",
+  "url": "https://github.com/AvaTar-ArTs/choTaku",
+  "release_date": "2026-08-15",
+  "audience": ["creative technologists", "AI agent builders", "comic and story creators"],
+  "problem": "Creative generation loses identity, continuity, and provenance across tools.",
+  "capabilities": [
+    "provider-neutral storyworld compilation",
+    "canon and continuity validation",
+    "comic, storyboard, and cinematic projections"
+  ],
+  "install": "git clone https://github.com/AvaTar-ArTs/choTaku && cd choTaku && pip install -e .",
+  "example": "Compile the Crimson Curse Master fixture into a deterministic artifact plan.",
+  "limitations": [
+    "Provider execution adapters are still evolving.",
+    "Generated visual quality depends on the selected provider."
+  ],
+  "sources": [
+    "https://github.com/AvaTar-ArTs/choTaku",
+    "https://github.com/AvaTar-ArTs/origin-story"
+  ],
+  "call_to_action": "Try the fixture, report an installation issue, or contribute a storyworld example.",
+  "platforms": ["github", "reddit", "hackernews", "x", "linkedin", "devto", "huggingface", "mcp"]
+}
