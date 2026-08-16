@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Trendy Cross-Domain Signal Record",
+  "type": "object",
+  "required": [
+    "source",
+    "artifact",
+    "category",
+    "cohort",
+    "time_window",
+    "baseline",
+    "current",
+    "signal_classes"
+  ],
+  "properties": {
+    "source": {
+      "type": "string"
+    },
+    "artifact": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "cohort": {
+      "type": "string"
+    },
+    "time_window": {
+      "type": "string"
+    },
+    "baseline": {
+      "type": "number"
+    },
+    "current": {
+      "type": "number"
+    },
+    "absolute_change": {
+      "type": "number"
+    },
+    "growth_percent": {
+      "type": "number"
+    },
+    "percentile": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "signal_classes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "attention",
+          "adoption",
+          "community",
+          "quality",
+          "commercial",
+          "retention"
+        ]
+      }
+    },
+    "quality_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "action": {
+      "type": "string"
+    }
+  }
+}
